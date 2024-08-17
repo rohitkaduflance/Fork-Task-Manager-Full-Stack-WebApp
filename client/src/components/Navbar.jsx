@@ -9,10 +9,8 @@ export default function Navbar() {
                 <img classname="logoimg" src={logoimg} alt="" />
                 <h1>Task Manager</h1>
             </div>
-            <div className="nav-techstack">
-
-            </div>
-            <button>Login</button>
+            {/* <div className="nav-techstack"> </div> */}
+            {/* <button>Login</button> */}
         </div>
     )
 }

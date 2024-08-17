@@ -6,9 +6,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 0.5px solid yellow;
+    /* border: 0.5px solid yellow; */
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
+    background-color: #5e6264;
+    box-shadow: rgba(21, 121, 235, 0.4) 0px 0px 0px 3px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 
@@ -17,6 +19,10 @@
     width: 50%;
     /* border: 2px solid red; */
     padding: 10px 0px;
+}
+
+.title-desc h2 {
+    font-weight: bolder;
 }
 
 .task-status {
@@ -59,4 +65,8 @@
     background-color: red;
     color: white ;
     font-weight: bolder;
+}
+
+.task-status p {
+    font-size: 2.5rem;
 }
