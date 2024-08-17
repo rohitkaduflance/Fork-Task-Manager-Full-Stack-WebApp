@@ -1,0 +1,62 @@
+.task-card {
+    /* border: 2px solid green; */
+    width: 90%;
+    height: 150px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 0.5px solid yellow;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.title-desc {
+    /* height: 100%; */
+    width: 50%;
+    /* border: 2px solid red; */
+    padding: 10px 0px;
+}
+
+.task-status {
+    width: 25%;
+    /* height: 100%; */
+    /* border: 2px solid pink;  */
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-delete {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid brown; */
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.edit-delete button {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.edit-delete button span {
+    margin: 0 7px;
+    top: 3px;
+}
+
+.edit-delete .edit-btn {
+    background-color: yellow;
+    font-weight: bolder;
+    color: black;
+}
+
+.edit-delete .delete-btn {
+    background-color: red;
+    color: white ;
+    font-weight: bolder;
+}
