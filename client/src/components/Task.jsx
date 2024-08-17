@@ -8,8 +8,16 @@ const Task = ({ task, deleteTask, editTask }) => {
                 <h2>{task.title}</h2>
                 <p>{task.description}</p>
             </div>
-            <div className="task-status">
-                <p>{task.status}</p>
+            <div className={`task-status ${task.status.toLowerCase()}`}>
+                {task.status === 'Pending' ? (
+                    <>
+                        <span className="status-icon">⏰</span> Pending
+                    </>
+                ) : (
+                    <>
+                        <span className="status-icon">✅</span> Completed
+                    </>
+                )}
             </div>
             <div className="edit-delete">
                 <button className="edit-btn" onClick={() => editTask(task._id)}>
